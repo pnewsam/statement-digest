@@ -1,1 +1,1 @@
-# statement-digest
+# statement-digestor
