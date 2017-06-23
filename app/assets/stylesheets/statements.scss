@@ -1,3 +1,8 @@
-// Place all the styles related to the statements controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.veiled {
+	height: 0.1px;
+  overflow: hidden;
+  opacity: 0;
+  position: absolute;
+  width: 0.1px;
+  z-index: -1;
+}

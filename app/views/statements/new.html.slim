@@ -1,1 +1,9 @@
 h1.title.is-1 Upload a New Statement
+
+.field
+  = form_tag statements_path
+.field
+  label.button[for="file"] Choose your file
+  = file_field_tag :file, class: 'veiled'
+.field
+  = submit_tag "Upload", class: 'button is-primary'
