@@ -6,4 +6,8 @@ html
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   body
-    = yield
+  nav
+    ul
+      li Home
+      li = link_to 'Upload a New Statement', new_statement_path
+  = yield
