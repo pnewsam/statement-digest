@@ -1,5 +1,6 @@
-h1 Statements
 
-- @statements.each do |statement|
-  h3 #{statement.start_date} to #{statement.end_date}
-  p #{statement.transactions.length} transactions
+    h1.title.is-1 Statements
+
+    - @statements.each do |statement|
+      h3 #{statement.start_date} to #{statement.end_date}
+      p #{statement.transactions.length} transactions

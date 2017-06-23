@@ -6,8 +6,11 @@ html
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   body
-  nav
-    ul
-      li Home
-      li = link_to 'Upload a New Statement', new_statement_path
-  = yield
+  nav.nav.has-shadow
+    .container
+      .nav-left
+        a.nav-item.is-tab[href='/'] Home
+        = link_to 'Upload a New Statement', new_statement_path, class: 'nav-item is-tab'
+  section.section
+    .container
+      = yield
