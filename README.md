@@ -1,4 +1,4 @@
-# Statement Digestor
+# Statement Digester
 
 A simple rails app for parsing  & compiling monthly bank and credit card statements from varied sources, performing basic analytics, and providing a clean PDF that can be printed for storage as a hardcopy. Designed to be run locally. (Basically to help me with my accounting).
 
