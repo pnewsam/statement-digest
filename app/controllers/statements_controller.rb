@@ -4,6 +4,10 @@ class StatementsController < ApplicationController
   end
 
   def create
-    
+    puts params
+  end
+
+  def statement_params
+    params.require(:statement).permit()
   end
 end
